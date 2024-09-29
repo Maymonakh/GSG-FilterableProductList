@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f3ec78, #af4261);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  animation: fadeInDown 1s ease-out;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff7e5f;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #feb47b;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.product-item {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(30% - 20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-item h3 {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+
+.product-item p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
